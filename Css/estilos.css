@@ -7,13 +7,28 @@ body{
     font-family: Arial;
 }
 
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 header, footer{
-    background-color: blue;
+    background: linear-gradient(to bottom right, rgb(56, 3, 66), rgb(209, 13, 13));
     padding-top: 2em;
     padding-bottom: 2em;
     color: white;
     font-size: 35px;
     text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .contenedor_global{
@@ -24,40 +39,47 @@ header, footer{
     align-items: center;
     justify-content: space-around;
     align-items: stretch;
-    background: linear-gradient(to bottom right, aquamarine, white);
+    
 }
 
-.contenedor_global h3{
-    text-align: center;
+.contenedor1{
+    width: 80%;
+    background: linear-gradient(to bottom left, rgb(56, 3, 66), white);
 }
 
-.contenedor1, .contenedor2{
-    width: 50%;
+.contenedor2{
+    width: 33%;
+    background: linear-gradient(to bottom right, rgb(37, 2, 44), white);
 }
 
 .contenedor1 > article {
     text-align: justify;
     padding: 1.5em;
-    margin: 2em;
-    background-color: rgb(122, 182, 178);
+    margin: 1em;
+    color:white;
+    border-radius: 25%;
+    font-size: 20px;
+    border: 3px solid rgb(9, 255, 0);
+    background: linear-gradient(to bottom right, rgb(8, 8, 44), rgb(78, 11, 87));
 }
 
 .contenedor1 > article:hover{
-    background-color: rgb(117, 121, 120);
-    color:white;
-    font-size: 14pt;
+    background-color: rgb(29, 4, 138);
+    color: lawngreen;
 }
-
 
 .contenedor2 > article {
     text-align: justify;
     padding: 1.5em;
     margin: 2em;
-    background-color: rgb(194, 204, 203);
+    background-color:cornflowerblue;
+    border:6px groove;
 }
 
 .contenedor2 > article:hover{
-    background-color: rgb(238, 240, 162);
-    /*color:white;*/
+    color:black;
     font-size: 14pt;
+    background: linear-gradient(to bottom right, rgb(84, 8, 99), white);
 }
+
+
